@@ -50,7 +50,7 @@ else:
     elif BUILD_TARGET == "rocm":
         IS_ROCM = True
 
-PACKAGE_NAME = "flash_attn"
+PACKAGE_NAME = "pi_flash_attn"
 
 BASE_WHEEL_URL = (
     "https://github.com/Jackmin801/flash-attention/releases/download/{tag_name}/{wheel_name}"
